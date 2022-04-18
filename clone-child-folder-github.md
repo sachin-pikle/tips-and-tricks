@@ -1,4 +1,4 @@
-# Clone a child folder (and it's subfolders) from GitHub
+# How to clone a child folder (and it's subfolders) from GitHub
 
 ***Credits: Rahul MR's code snippet:
 https://github.com/oracle-devrel/oci-devops-examples/tree/main/oci-coderepo-examples/oci-devops-coderepo-with-github***
