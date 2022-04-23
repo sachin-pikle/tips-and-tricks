@@ -42,7 +42,7 @@ We can achieve it with the following set of commands:
     ``` shell
     docker images -a
     ```
-    The output should look like the following:
+    The output should look like the following. Note the IMAGE ID is the same for all the tags.
     
     ``` shell
     REPOSITORY                                                        TAG                 IMAGE ID            CREATED             SIZE
