@@ -60,3 +60,15 @@ We can achieve it with the following set of commands:
     docker push phx.ocir.io/my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17
     ```
     This commands pushes all the tags to OCIR.
+
+6. To verify, login to the OCI Console. Go to `Developer Services >> Containers & Artifacts >> Container Registry` in your compartment. Go to the image in the repository `gvm/jibber-ni-gvmce22-jdk17` and click on `Associated Tags`. You should see all the tags:
+
+    ``` shell
+    Tag	        Full path
+    qug3cic	    my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17:qug3cic
+    v1.0.1-b1	my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17:v1.0.1-b1
+    v1	        my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17:v1
+    v1.0	    my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17:v1.0
+    v1.0.1	    my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17:v1.0.1
+    latest	    my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17:latest
+    ```
