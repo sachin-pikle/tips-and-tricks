@@ -66,8 +66,8 @@ We can achieve it with the following set of commands:
     ``` shell
     Tag	        Full path
     qug3cic	    my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17:qug3cic
-    v1.0.1-b1	my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17:v1.0.1-b1
-    v1	        my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17:v1
+    v1.0.1-b1   my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17:v1.0.1-b1
+    v1          my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17:v1
     v1.0	    my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17:v1.0
     v1.0.1	    my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17:v1.0.1
     latest	    my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17:latest
