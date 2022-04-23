@@ -4,7 +4,7 @@ The answer is yes. A single image in OCIR can have multiple tags.
 
 We can achieve it with the following set of commands:
 
-1. Pull an image you wish to add multiple tags to.
+1. Pull an existing image you wish to add multiple tags to. In my case, I will use the image `gvm/jibber-ni-gvmce22-jdk17:qug3cic` from my OCIR in the `PHX` region.
 
     ``` shell
     docker pull phx.ocir.io/my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17:qug3cic
