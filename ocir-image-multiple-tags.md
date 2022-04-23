@@ -59,7 +59,7 @@ We can achieve it with the following set of commands:
     ``` shell
     docker push phx.ocir.io/my-tenant-namespace/gvm/jibber-ni-gvmce22-jdk17
     ```
-    This commands pushes all the tags to OCIR.
+    This command pushes all the tags to OCIR.
 
 6. To verify, login to the OCI Console. Go to `Developer Services >> Containers & Artifacts >> Container Registry` in your compartment. Go to the image in the repository `gvm/jibber-ni-gvmce22-jdk17` and click on `Associated Tags`. You should see all the tags:
 
