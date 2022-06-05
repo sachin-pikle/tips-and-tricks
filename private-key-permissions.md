@@ -30,7 +30,9 @@ The output is:
 
 ## Solution
 
-One solution to this problem is to make the key file readable only by you. To do this, run the following command:
+As per the ssh manpage (`man ssh`), a private key file contains sensitive data and should be readable by the user only but not accessible by others (read/write/execute). 
+
+One solution is to make the key file readable only by you. To do this, run the following command:
 
 ```shell
 chmod 400 ~/keys/private-key.key
@@ -48,7 +50,9 @@ The output is:
 -r--------@ 1 user1  staff   1.6K Jun  5 10:40 /Users/user1/keys/private-key.key
 ```
 
-The other solution is to make the key file read-writeable by only you by running the following command:
+## Alternate Solution
+
+The other solution is to make the key file read-writeable only by you by running the following command:
 
 ```shell
 chmod 600 ~/keys/private-key.key
