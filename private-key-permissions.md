@@ -2,6 +2,8 @@
 
 ***Credits: https://stackoverflow.com/a/9270753***
 
+## Problem
+
 At times, you may get the following error while using private key files for ssh on a Mac:
 
 ```
@@ -25,6 +27,8 @@ The output is:
 ```shell
 -rw-r--r--@ 1 user1  staff   1.6K Jun  5 10:40 /Users/user1/keys/private-key.key
 ```
+
+## Solution
 
 One solution to this problem is to make the key file readable only by you. To do this, run the following command:
 
